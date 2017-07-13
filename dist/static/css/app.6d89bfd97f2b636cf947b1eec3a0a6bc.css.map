@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/Register.vue"],"names":[],"mappings":"AACA,UACI,UACA,cAAgB","file":"static/css/app.6d89bfd97f2b636cf947b1eec3a0a6bc.css","sourcesContent":["\n.asterisk {\n    top: -0.1em;\n    font-size: 25px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/components/Register.vue"],"sourceRoot":""}

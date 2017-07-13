@@ -5,6 +5,7 @@
                 <ul class="menu">
                     <router-link to="/" tag="li"><a>Home</a></router-link>
                     <router-link to="/register" tag="li"><a>Register</a></router-link>
+                    <li><a href="https://medium.com/good-birds" target="_blank">News</a></li>
                 </ul>
             </div>
         </div>
