@@ -1,0 +1,15 @@
+Colours:
+
+Headings: #2d2d2d
+Paragraph: #666666
+Dark Red: #792822
+Lighter Red for links hover: #9e0b0f
+
+Sizes:
+
+h1, .h1: Hero heading - Renner Light 56px
+h2, .h2: Sub Heading, Nav - Renner Bold 24px
+h3, .h3: Renner Light 36px
+p .p: Renner Book 24px
+.button: Renner Book 20px
+.emph: (i.e. Price near bottom) Renner Book 48px
