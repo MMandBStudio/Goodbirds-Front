@@ -1,25 +1,77 @@
 <template>
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="cell small-12">
-                <h1>Goodbirds</h1>
-                <p>You would love your business to grow a bit faster and you know you should do something about it but you never have time and aren't sure where to start.</p>
-                <ul>
-                    <li>Marketing never makes it to the top of the pile</li>
-                    <li>You've got a great offer, but no time to tell your customers about it</li>
-                    <li>You want to get customers to recommend you, but don't how to encourage them</li>
-                    <li>You've got a sale coming up but no time to promote it</li>
-                    <li>You need a customer loyalty scheme but don't know where to start</li>
-                </ul>
-                <p>You need a tool which helps you to grow your business in ten minutes a day. A tool which guides you through each job and makes it fun for everyone. A tool which rewards your work. You need Goodbirds.</p>
-                <h4>How it works</h4>
-                <p>Goodbirds helps you gather your ideas and send them to your customers. Got an idea for a customer offer, or a window display or a staff day out? Got a  promotion from a supplier? Got late availability or a cancellation to fill? Just email it to hatch@goodbirds.co.uk and the promotion has started.</p>
-                <p>When you get five minutes go to your account, select who to send the offer to (everyone, a group of people or one to one), check it and send it.</p>
-                <p>Need a calendar to take bookings? Need an offer page for customers to check out? Need it posting to your Facebook page or Twitter feed? Need to take payments online? Just tick a few boxes and it's done.</p>
-                <p>Your offer is out there, your customers can respond, your business is growing.</p>
-                <p>Goodbirds is fledging now and will be taking flight in September 2017.</p>
-                <p>Be a good egg and sign up for early access now to get news, goodies and discounts*</p>
-                <p>* Goodbirds will cost £25 + VAT per month from October, but register for early access now and you'll get a month's free trial and a discounted rate of £15 a month for as long as you stay in the nest.</p>
+    <div class="root-container">
+        <div class="hero hero-home pad-bottom">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x pad-top">
+                    <div class="cell small-12 pad-top">
+                        <h1 class="pad-top pad-bottom">Make your business fly</h1>
+                        <p class="pad-top">
+                            <router-link to="register" tag="a">Register now</router-link>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pad bg">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-9">
+                        <p>Goodbirds helps you gather ideas, expand them into marketing concepts, and send them to your customers.</p>
+                    </div>
+                    <div class="cell small-12 medium-3">
+                        <p>
+                            <router-link to="register" tag="a" class="button">Create account</router-link>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container pad-top">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-12 medium-6 pad-top-large pad-bottom">
+                    <h3>Why Goodbirds?</h3>
+                    <p>It makes marketing fun.</p>
+                    <p class="pad-top">Got an idea for a customer offer, or a window display, or a staff day out? Got a promotion from a supplier? Got late availability, or a cancellation to fill? Don’t have the time. Just email it to hatch@goodbirds.co.uk and your promotion has already started.</p>
+                    <p class="pad-top">Your account will soon be brimming with your original ideas.</p>
+                </div>
+                <div class="cell small-12 medium-6 pad-top pad-bottom">
+                    <img src="../../static/img/want-to-grow.jpg" alt=""/>
+                    <p class="text-center pad-top"><i>Would you like to grow faster?</i></p>
+                </div>
+            </div>
+        </div>
+        <div class="hero hero-flight pad-top pad-bottom">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12 medium-6 medium-offset-6 float-right">
+                        <h3>How it works</h3>
+                        <p>Grow your business in ten minutes a day: go to your account, select who to send the offer, news or incentive to (everyone, a group of people or one to one), check it and send it. Collect rewards and keep up the good work.</p>
+                        <p>Need a calendar to take bookings? Need an offer page for customers to check out? Need it posting to your Facebook page or Twitter feed? Need to take payments online? Just tick a few boxes and it's done.</p>
+                        <p>Your offer is out there, your customers can respond, your business is growing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center pad-top-large pad-bottom">Goodbirds is fledging now and will be taking flight in September 2017.</h3>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-12 medium-6 card bg pad-top pad-bottom fix-height">
+                    <p class="text-center marg-bottom-tiny">* Goodbirds will cost</p>
+                    <p class="emph text-center marg-bottom-tiny">£25 + VAT</p>
+                    <p class="text-center">per month from October</p>
+                    <p>Register for early access now and you'll get a month's free trial and a discounted rate of £15 a month for as long as you stay in the nest.</p>
+                </div>
+                <div class="cell small-12 medium-6">
+                    <img class="fix-height" src="../../static/img/eggs.jpg" alt="" />
+                </div>
+            </div>
+            <div class="grid-x grid-x-padding pad-top">
+                <div class="cell small-12">
+                    <p class="text-center pad-top">Be a good egg and sign up for early access now to get news, goodies and discounts*</p>
+                    <p class="text-center pad-top">
+                        <router-link to="register" tag="a" class="button">Create Account</router-link>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -30,3 +82,9 @@
         name: 'home',
     };
 </script>
+
+<style>
+    .fix-height {
+        height: 375px;
+    }
+</style>

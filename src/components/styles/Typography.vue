@@ -41,6 +41,10 @@
         font-family: inherit;
     }
 
+    .small {
+        font-size: 85%;
+    }
+
     .button {
         font-family: 'rennerbook';
         font-size: 20px;
@@ -49,6 +53,7 @@
     .emph {
         font-family: 'rennerbook';
         font-size: 48px;
+        line-height: 35px;
     }
 
     a {
