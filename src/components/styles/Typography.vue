@@ -34,6 +34,19 @@
         color: #666666;
     }
 
+    label,
+    input {
+        font-family: 'rennerbook';
+        font-size: 20px;
+        color: #666666;
+    }
+
+    .help-text {
+        font-family: 'rennerbook';
+        font-size: 18px;
+        color: #666666;
+    }
+
     a,
     strong,
     i,
@@ -62,7 +75,17 @@
         &:hover,
         &:focus {
             color: #9e0b0f;
+            text-decoration: underline;
         }
     }
 
+    .asterisk {
+        top: -0.1em;
+        font-size: 25px;
+
+        .small & {
+            top: 0.2em;
+            font-size: 23px;
+        }
+    }
 </style>

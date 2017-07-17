@@ -1,7 +1,7 @@
 <style lang="scss">
 
     .hero {
-        min-height: 300px;
+        min-height: 540px;
         background-repeat: no-repeat;
         background-position: center center;
     }

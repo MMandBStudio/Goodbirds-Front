@@ -14,6 +14,9 @@
     .pad-bottom {
         padding-bottom: 20px;
     }
+    .pad-bottom-large {
+        padding-bottom: 40px;
+    }
 
     .pad-left {
         padding-left: 20px;

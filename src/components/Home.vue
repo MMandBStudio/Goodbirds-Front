@@ -2,9 +2,9 @@
     <div class="root-container">
         <div class="hero hero-home pad-bottom">
             <div class="grid-container">
-                <div class="grid-x grid-padding-x pad-top">
-                    <div class="cell small-12 pad-top">
-                        <h1 class="pad-top pad-bottom">Make your business fly</h1>
+                <div class="grid-x grid-padding-x">
+                    <div class="cell small-12">
+                        <h1 class="spaced-h1">Make your business fly</h1>
                         <p class="pad-top">
                             <router-link to="register" tag="a">Register now</router-link>
                         </p>
@@ -28,10 +28,16 @@
         </div>
         <div class="grid-container pad-top">
             <div class="grid-x grid-padding-x">
-                <div class="cell small-12 medium-6 pad-top-large pad-bottom">
+                <div class="cell small-12 medium-6 pad-top pad-bottom">
                     <h3>Why Goodbirds?</h3>
                     <p>It makes marketing fun.</p>
-                    <p class="pad-top">Got an idea for a customer offer, or a window display, or a staff day out? Got a promotion from a supplier? Got late availability, or a cancellation to fill? Don’t have the time. Just email it to hatch@goodbirds.co.uk and your promotion has already started.</p>
+                    <ul class="pad-top">
+                        <li>Got an idea for a customer offer, or a window display, or a staff day out?</li>
+                        <li>Got a promotion from a supplier?</li>
+                        <li>Got late availability, or a cancellation to fill?</li>
+                        <li>Don’t have the time to capitalise?</li>
+                    </ul>
+                    <p>Just email it to <a href="mailto:hatch@goodbirds.co.uk">hatch@goodbirds.co.uk</a> and your promotion has already started.</p>
                     <p class="pad-top">Your account will soon be brimming with your original ideas.</p>
                 </div>
                 <div class="cell small-12 medium-6 pad-top pad-bottom">
@@ -83,7 +89,11 @@
     };
 </script>
 
-<style>
+<style lang="scss" scoped>
+    .spaced-h1 {
+        padding-top: 200px;
+    }
+
     .fix-height {
         height: 375px;
     }
