@@ -1,6 +1,6 @@
 # goodbirds
 
-> Goodbirds front end
+> Goodbirds - front end
 
 ## Build Setup
 
